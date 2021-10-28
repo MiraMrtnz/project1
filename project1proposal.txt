@@ -1,0 +1,15 @@
+Summary
+=======
+
+In this project I create a console that provides video game analysis consisting of, but not limited to, video 
+game popularity, ratings, rankings, and general details (i.e. genre, developers, release year, etc.). Datasets 
+used in this project are publicly available at <https://rawg.io/> and <statista.com>. Queries and functionalities 
+include:
+
+-User search for a specific game or genre
+-Video game cost of production vs game profits
+-What are the most popular games for each specified console (i.e. XBOX, PS4/5, Nintendo)
+-What are the highest rated games of the past decade
+-What games/genre's were most popular pre-pandemic vs post-pandemic
+-Most anticipated games of the year (starting 2015)
+-More as needed..
