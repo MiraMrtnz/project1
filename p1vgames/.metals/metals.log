@@ -1,0 +1,145 @@
+[0m2021.10.27 20:03:34 INFO  Started: Metals version 0.10.8 in workspace 'C:\Users\Mira\Desktop\TrainingProgram\Project 1\p1vgames' for client Visual Studio Code 1.61.2.[0m
+[0m2021.10.27 20:03:35 INFO  time: initialize in 0.27s[0m
+[0m2021.10.27 20:03:35 WARN  Build server is not auto-connectable.[0m
+[0m2021.10.27 20:03:37 INFO  running 'C:\Program Files\Java\jdk1.8.0_202\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\Mira\AppData\Local\Temp\metals3289721168215666598\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2021.10.27 20:03:41 INFO  [info] Loading settings for project p1vgames-build-build from metals.sbt ...[0m
+[0m2021.10.27 20:03:41 INFO  [info] Loading project definition from C:\Users\Mira\Desktop\TrainingProgram\Project 1\p1vgames\project\project[0m
+[0m2021.10.27 20:03:41 INFO  [info] Updating ProjectRef(uri("file:/C:/Users/Mira/Desktop/TrainingProgram/Project%201/p1vgames/project/project/"), "p1vgames-build-build")...[0m
+[0m2021.10.27 20:03:43 INFO  [info] Done updating.[0m
+[0m2021.10.27 20:03:44 INFO  [info] Loading settings for project p1vgames-build from metals.sbt ...[0m
+[0m2021.10.27 20:03:44 INFO  [info] Loading project definition from C:\Users\Mira\Desktop\TrainingProgram\Project 1\p1vgames\project[0m
+[0m2021.10.27 20:03:44 INFO  [info] Updating ProjectRef(uri("file:/C:/Users/Mira/Desktop/TrainingProgram/Project%201/p1vgames/project/"), "p1vgames-build")...[0m
+[0m2021.10.27 20:03:45 INFO  [info] Done updating.[0m
+[0m2021.10.27 20:03:45 INFO  [success] Generated .bloop\p1vgames-build.json[0m
+[0m2021.10.27 20:03:47 INFO  [success] Total time: 3 s, completed Oct 27, 2021 8:03:47 PM[0m
+[0m2021.10.27 20:03:48 INFO  [info] Loading settings for project root from build.sbt ...[0m
+[0m2021.10.27 20:03:48 INFO  [info] Set current project to P1VGames (in build file:/C:/Users/Mira/Desktop/TrainingProgram/Project%201/p1vgames/)[0m
+[0m2021.10.27 20:03:48 INFO  [info] Updating ...[0m
+[0m2021.10.27 20:03:50 INFO  [info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8.jar ...[0m
+[0m2021.10.27 20:03:50 INFO  [info] downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.5/scalatest_2.12-3.0.5.jar ...[0m
+[0m2021.10.27 20:03:50 INFO  [info] downloading https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.5/scalactic_2.12-3.0.5.jar ...[0m
+[0m2021.10.27 20:03:50 INFO  [info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.8/scala-compiler-2.12.8.jar ...[0m
+[0m2021.10.27 20:03:50 INFO  [info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.8/scala-reflect-2.12.8.jar ...[0m
+[0m2021.10.27 20:03:50 INFO  [info] 	[SUCCESSFUL ] org.scalactic#scalactic_2.12;3.0.5!scalactic_2.12.jar(bundle) (856ms)[0m
+[0m2021.10.27 20:03:52 INFO  [info] 	[SUCCESSFUL ] org.scala-lang#scala-library;2.12.8!scala-library.jar (2119ms)[0m
+[0m2021.10.27 20:03:53 INFO  [info] 	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.12.8!scala-reflect.jar (3303ms)[0m
+[0m2021.10.27 20:03:53 INFO  [info] 	[SUCCESSFUL ] org.scalatest#scalatest_2.12;3.0.5!scalatest_2.12.jar(bundle) (4247ms)[0m
+[0m2021.10.27 20:03:55 INFO  [info] 	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.12.8!scala-compiler.jar (5359ms)[0m
+[0m2021.10.27 20:03:55 INFO  [info] Done updating.[0m
+[0m2021.10.27 20:03:55 INFO  [info] downloading https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.5/scalactic_2.12-3.0.5-sources.jar ...[0m
+[0m2021.10.27 20:03:55 INFO  [info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.8/scala-reflect-2.12.8-sources.jar ...[0m
+[0m2021.10.27 20:03:55 INFO  [info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8-sources.jar ...[0m
+[0m2021.10.27 20:03:55 INFO  [info] downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.5/scalatest_2.12-3.0.5-sources.jar ...[0m
+[0m2021.10.27 20:03:55 INFO  [info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.8/scala-compiler-2.12.8-sources.jar ...[0m
+[0m2021.10.27 20:03:55 INFO  [info] 	[SUCCESSFUL ] org.scalactic#scalactic_2.12;3.0.5!scalactic_2.12.jar(src) (300ms)[0m
+[0m2021.10.27 20:03:55 INFO  [info] 	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.12.8!scala-reflect.jar(src) (454ms)[0m
+[0m2021.10.27 20:03:55 INFO  [info] 	[SUCCESSFUL ] org.scala-lang#scala-library;2.12.8!scala-library.jar(src) (776ms)[0m
+[0m2021.10.27 20:03:57 INFO  [info] 	[SUCCESSFUL ] org.scalatest#scalatest_2.12;3.0.5!scalatest_2.12.jar(src) (1429ms)[0m
+[0m2021.10.27 20:03:57 INFO  [info] 	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.12.8!scala-compiler.jar(src) (1486ms)[0m
+[0m2021.10.27 20:03:57 INFO  [success] Generated .bloop\root-test.json[0m
+[0m2021.10.27 20:03:57 INFO  [success] Generated .bloop\root.json[0m
+[0m2021.10.27 20:03:57 INFO  [success] Total time: 9 s, completed Oct 27, 2021 8:03:57 PM[0m
+[0m2021.10.27 20:03:57 INFO  time: ran 'sbt bloopInstall' in 19s[0m
+[0m2021.10.27 20:03:57 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 13000'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.10-8-8d1cbc4f...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading 2 projects from 'c:\Users\Mira\Desktop\TrainingProgram\Project 1\p1vgames\.bloop'...
+[0m[32m[D][0m Loading project from 'c:\Users\Mira\Desktop\TrainingProgram\Project 1\p1vgames\.bloop\root-test.json'
+[0m[32m[D][0m Loading project from 'c:\Users\Mira\Desktop\TrainingProgram\Project 1\p1vgames\.bloop\root.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.12.8.
+[0m[32m[D][0m   => C:\Users\Mira\.ivy2\cache\jline\jline\jars\jline-2.14.6.jar
+[0m[32m[D][0m   => C:\Users\Mira\.ivy2\cache\org.scala-lang.modules\scala-xml_2.12\bundles\scala-xml_2.12-1.0.6.jar
+[0m[32m[D][0m   => C:\Users\Mira\.ivy2\cache\org.scala-lang\scala-compiler\jars\scala-compiler-2.12.8.jar
+[0m[32m[D][0m   => C:\Users\Mira\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.12.8.jar
+[0m[32m[D][0m   => C:\Users\Mira\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.12.8.jar
+[0m[32m[D][0m Missing analysis file for project 'root'
+[0m[32m[D][0m Missing analysis file for project 'root-test'
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:13000...
+The server is listening for incoming connections at tcp://127.0.0.1:13000...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.27 20:04:03 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Mira\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.27 20:04:08 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 35439'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:35439...
+The server is listening for incoming connections at tcp://127.0.0.1:35439...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.27 20:04:08 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Mira\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.27 20:04:08 INFO  time: Connected to build server in 11s[0m
+[0m2021.10.27 20:04:08 INFO  Connected to Build server: Bloop v1.4.10-8-8d1cbc4f[0m
+[0m2021.10.27 20:04:11 INFO  time: indexed workspace in 3.08s[0m
+[0m2021.10.27 20:04:13 INFO  no build target: using presentation compiler with only scala-library: 2.12.8[0m
+[0m2021.10.27 20:04:15 INFO  compiling root (1 scala source)[0m
+Oct 27, 2021 8:04:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5
+[0m2021.10.27 20:04:24 WARN  unsupported Scala 2.12.7[0m
+[0m2021.10.27 20:04:24 WARN  unsupported Scala 2.12.7[0m
+[0m2021.10.27 20:04:25 INFO  time: compiled root in 9.72s[0m
+[0m2021.10.27 20:04:25 WARN  unsupported Scala 2.12.7[0m
+[0m2021.10.27 20:04:25 WARN  unsupported Scala 2.12.7[0m
+[0m2021.10.27 20:04:26 WARN  unsupported Scala 2.12.7[0m
+[0m2021.10.27 20:04:26 WARN  unsupported Scala 2.12.7[0m
+[0m2021.10.27 20:04:27 INFO  compiling p1vgames-build (1 scala source)[0m
+[0m2021.10.27 20:04:27 INFO  Non-compiled module 'compiler-bridge_2.12' for Scala 2.12.7. Compiling...[0m
+[0m2021.10.27 20:04:34 INFO    Compilation completed in 7.236s.[0m
+[0m2021.10.27 20:04:34 INFO  time: compiled p1vgames-build in 7.96s[0m
+[0m2021.10.27 20:09:21 WARN  unsupported Scala 2.12.7[0m
+Oct 27, 2021 8:09:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15
+Oct 27, 2021 8:09:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 21
+[0m2021.10.27 20:09:50 WARN  unsupported Scala 2.12.7[0m
+[0m2021.10.27 20:09:59 WARN  unsupported Scala 2.12.7[0m
+Oct 27, 2021 8:09:59 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:188)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.10.27 20:09:59 WARN  unsupported Scala 2.12.7[0m
+Oct 27, 2021 8:10:00 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:188)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.10.27 20:10:02 WARN  unsupported Scala 2.12.7[0m
+Oct 27, 2021 8:10:03 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:188)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.10.27 20:10:02 WARN  unsupported Scala 2.12.7[0m
+Oct 27, 2021 8:10:03 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:188)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
