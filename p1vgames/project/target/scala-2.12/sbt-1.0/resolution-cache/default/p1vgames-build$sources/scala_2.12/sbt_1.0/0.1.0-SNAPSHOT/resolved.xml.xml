@@ -4,7 +4,7 @@
 		module="p1vgames-build$sources"
 		revision="0.1.0-SNAPSHOT"
 		status="integration"
-		publication="20211027200345"
+		publication="20211029183651"
 		e:sbtVersion="1.0" e:scalaVersion="2.12"
 	/>
 	<configurations>

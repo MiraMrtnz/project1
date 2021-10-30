@@ -5,38 +5,39 @@
         "directory": "C:\\Users\\Mira\\Desktop\\TrainingProgram\\Project 1\\p1vgames",
         "workspaceDir": "C:\\Users\\Mira\\Desktop\\TrainingProgram\\Project 1\\p1vgames",
         "sources": [
-            "C:\\Users\\Mira\\Desktop\\TrainingProgram\\Project 1\\p1vgames\\src\\main\\scala-2.12",
+            "C:\\Users\\Mira\\Desktop\\TrainingProgram\\Project 1\\p1vgames\\src\\main\\scala-2.11",
             "C:\\Users\\Mira\\Desktop\\TrainingProgram\\Project 1\\p1vgames\\src\\main\\scala",
             "C:\\Users\\Mira\\Desktop\\TrainingProgram\\Project 1\\p1vgames\\src\\main\\java",
-            "C:\\Users\\Mira\\Desktop\\TrainingProgram\\Project 1\\p1vgames\\target\\scala-2.12\\src_managed\\main"
+            "C:\\Users\\Mira\\Desktop\\TrainingProgram\\Project 1\\p1vgames\\target\\scala-2.11\\src_managed\\main"
         ],
         "dependencies": [
             
         ],
         "classpath": [
-            "C:\\Users\\Mira\\.ivy2\\cache\\org.scala-lang\\scala-library\\jars\\scala-library-2.12.8.jar"
+            "C:\\Users\\Mira\\.ivy2\\cache\\org.scala-lang\\scala-library\\jars\\scala-library-2.11.8.jar"
         ],
         "out": "C:\\Users\\Mira\\Desktop\\TrainingProgram\\Project 1\\p1vgames\\.bloop\\root",
-        "classesDir": "C:\\Users\\Mira\\Desktop\\TrainingProgram\\Project 1\\p1vgames\\.bloop\\root\\scala-2.12\\classes",
+        "classesDir": "C:\\Users\\Mira\\Desktop\\TrainingProgram\\Project 1\\p1vgames\\.bloop\\root\\scala-2.11\\classes",
         "resources": [
             "C:\\Users\\Mira\\Desktop\\TrainingProgram\\Project 1\\p1vgames\\src\\main\\resources",
-            "C:\\Users\\Mira\\Desktop\\TrainingProgram\\Project 1\\p1vgames\\target\\scala-2.12\\resource_managed\\main"
+            "C:\\Users\\Mira\\Desktop\\TrainingProgram\\Project 1\\p1vgames\\target\\scala-2.11\\resource_managed\\main"
         ],
         "scala": {
             "organization": "org.scala-lang",
             "name": "scala-compiler",
-            "version": "2.12.8",
+            "version": "2.11.8",
             "options": [
                 
             ],
             "jars": [
-                "C:\\Users\\Mira\\.ivy2\\cache\\org.scala-lang\\scala-compiler\\jars\\scala-compiler-2.12.8.jar",
-                "C:\\Users\\Mira\\.ivy2\\cache\\org.scala-lang\\scala-library\\jars\\scala-library-2.12.8.jar",
-                "C:\\Users\\Mira\\.ivy2\\cache\\org.scala-lang\\scala-reflect\\jars\\scala-reflect-2.12.8.jar",
-                "C:\\Users\\Mira\\.ivy2\\cache\\org.scala-lang.modules\\scala-xml_2.12\\bundles\\scala-xml_2.12-1.0.6.jar",
-                "C:\\Users\\Mira\\.ivy2\\cache\\jline\\jline\\jars\\jline-2.14.6.jar"
+                "C:\\Users\\Mira\\.ivy2\\cache\\org.scala-lang\\scala-compiler\\jars\\scala-compiler-2.11.8.jar",
+                "C:\\Users\\Mira\\.ivy2\\cache\\org.scala-lang\\scala-library\\jars\\scala-library-2.11.8.jar",
+                "C:\\Users\\Mira\\.ivy2\\cache\\org.scala-lang\\scala-reflect\\jars\\scala-reflect-2.11.8.jar",
+                "C:\\Users\\Mira\\.ivy2\\cache\\org.scala-lang.modules\\scala-xml_2.11\\bundles\\scala-xml_2.11-1.0.4.jar",
+                "C:\\Users\\Mira\\.ivy2\\cache\\org.scala-lang.modules\\scala-parser-combinators_2.11\\bundles\\scala-parser-combinators_2.11-1.0.4.jar",
+                "C:\\Users\\Mira\\.ivy2\\cache\\jline\\jline\\jars\\jline-2.12.1.jar"
             ],
-            "analysis": "C:\\Users\\Mira\\Desktop\\TrainingProgram\\Project 1\\p1vgames\\target\\streams\\compile\\bloopAnalysisOut\\$global\\streams\\inc_compile_2.12.zip",
+            "analysis": "C:\\Users\\Mira\\Desktop\\TrainingProgram\\Project 1\\p1vgames\\target\\streams\\compile\\bloopAnalysisOut\\$global\\streams\\inc_compile_2.11.zip",
             "setup": {
                 "order": "mixed",
                 "addLibraryToBootClasspath": true,
@@ -107,16 +108,16 @@
                 {
                     "organization": "org.scala-lang",
                     "name": "scala-library",
-                    "version": "2.12.8",
+                    "version": "2.11.8",
                     "artifacts": [
                         {
                             "name": "scala-library",
-                            "path": "C:\\Users\\Mira\\.ivy2\\cache\\org.scala-lang\\scala-library\\jars\\scala-library-2.12.8.jar"
+                            "path": "C:\\Users\\Mira\\.ivy2\\cache\\org.scala-lang\\scala-library\\jars\\scala-library-2.11.8.jar"
                         },
                         {
                             "name": "scala-library",
                             "classifier": "sources",
-                            "path": "C:\\Users\\Mira\\.ivy2\\cache\\org.scala-lang\\scala-library\\srcs\\scala-library-2.12.8-sources.jar"
+                            "path": "C:\\Users\\Mira\\.ivy2\\cache\\org.scala-lang\\scala-library\\srcs\\scala-library-2.11.8-sources.jar"
                         }
                     ]
                 }

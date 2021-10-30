@@ -1,4 +1,4 @@
-[debug] [p1vgames-build] Classpath dependencies List()
-[debug] [p1vgames-build] Dependencies from configurations List()
-[debug] Bloop wrote the configuration of project 'p1vgames-build' to 'C:\Users\Mira\Desktop\TrainingProgram\Project 1\p1vgames\project\.bloop\p1vgames-build.json'
-[success] Generated .bloop\p1vgames-build.json
+[0m[[0m[0mdebug[0m] [0m[0m[p1vgames-build] Classpath dependencies List()[0m
+[0m[[0m[0mdebug[0m] [0m[0m[p1vgames-build] Dependencies from configurations List()[0m
+[0m[[0m[0mdebug[0m] [0m[0mBloop wrote the configuration of project 'p1vgames-build' to 'C:\Users\Mira\Desktop\TrainingProgram\Project 1\p1vgames\project\.bloop\p1vgames-build.json'[0m
+[0m[[0m[32msuccess[0m] [0m[0mGenerated .bloop\p1vgames-build.json[0m
