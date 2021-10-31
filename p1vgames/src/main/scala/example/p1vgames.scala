@@ -19,8 +19,10 @@ import example.Login
 object VGames {
     def main(args: Array[String]){
         println("Welcome to the VGames App") //Initial
-    
-        println("Make a selection")
+        
+        println("Loading, please wait...")
+
+        println("Login Menu")
         Login.userSelection
 
     

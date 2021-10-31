@@ -4,11 +4,11 @@ import scala.io.Source
 
 object Login {
     var admin = "admin"
-    var user = "mira"
     var adminKey = "adminkey"
-    var userKey = "miraKey"
-    var updateUser = ""
-    var failedAttempts = 0
+    var user = "mira"
+    var userKey = "mirakey"
+    var username = ""
+    
     
 
     def userSelection{
@@ -24,7 +24,7 @@ object Login {
         selection match{
             case 1 => adminUser
             case 2 => existingUser
-           // case 3 => updateUser
+            case 3 => updateUser
            // case 4 => exit
             case _ => println("Enter valid option..")
         }
@@ -39,7 +39,8 @@ object Login {
             println("Enter password")
             var pswd = scala.io.StdIn.readLine
                 if(pswd == adminKey){
-                    println("Welcome Admin")
+                    println("Hello Administrator, you're looking good today.")
+                    println("Directing you to Main menu...")
                     VGames.mainScreen
 
                 }else{
@@ -55,90 +56,71 @@ object Login {
 
     def existingUser{
         println("Enter username")
-        var username = scala.io.StdIn.readLine
+        var userInput = scala.io.StdIn.readLine
 
-        if(username == mira){
+        if(userInput == user){
             println("Enter password")
             var pswd = scala.io.StdIn.readLine
-                if(pswd == adminKey){
-                    println("Welcome Admin")
+                if(pswd == userKey){
+                    println("Welcome Mira")
+                    println("Directing you to Main menu...")
                     VGames.mainScreen
 
                 }else{
-                    println("Incorrect password. Returning to Main menu.")
+                    println("Incorrect password. Returning to Login menu.")
                     userSelection
                 }
 
         }else{
-            println("Incorrect username. Returning to Main menu.")
+            println("Incorrect username. Returning to Login menu.")
             userSelection
         } 
     }
     
 
     def updateUser{
-        var updateSeq: Seq[String] = Seq("1.Update Username", "2. Update Password")
-        println("Select")
+        println("1.Enter Username")
+        var userInput = scala.io.StdIn.readLine
 
-        for(x <- updateSeq){
-            println(x)
+        if(userInput == admin){
+            println("Hello Admin, please enter your password.")
+            var pswd = scala.io.StdIn.readLine
+            if(pswd == adminKey){
+                println("Sorry Admin, you cannot change your username. Returning to Login menu.")
+                userSelection
+                
+            }else{
+                println("Incorrect password. Returning to Login menu.")
+                userSelection
+            }
+
+        }else{
+            println("Not valid username. Returning to Login menu.")
+            userSelection
         }
-        var selection = scala.io.StdIn.readLine
 
-        selection match{
-            case 1 => println("Enter your username")
-                var username = scala.io.StdIn.readLine
+        if(userInput == user){
+            println("Hello Mira, please enter your password.")
+            var pswd = scala.io.StdIn.readLine
+            if(pswd == userKey){
+                println("Enter your new username")
+                var pswd = scala.io.StdIn.readLine
+                println("Your new username is: " + user)
+            }else{
+                println("Incorrect password. Returning to Login menu.")
+                userSelection
+            }
 
-                if(username == admin){
-                    println("Enter your password")
-                    var pswd = scala.io.StdIn.readLine
-                        if(pswd == adminKey){
-                            println("Create new username")
-                            admin = scala.io.StdIn.readLine
-                            println("Your new username:" + admin)
-                            println("Back to Main menu")
-                            userOptions
-                        }
-                        else if(failedAttempts == 2){
-                            println("Too many failed attempts. Returning to Main menu")
-                            failedAttempts = 0
-                            userOptions
-                        }
-                        else{
-                            println("Enter valid username")
-                            failedAttempts += 1
-                            updateUser
-                        }
-                    }
-                else if(username == mira){
-                    println("Enter your password")
-                    var pswd = scala.io.StdIn.readLine
-                    if(pswd == miraKey){
-                        println("Create new username")
-                        user = scala.io.StdIn.readLine
-                        println("Your new username:" + user)
-                        println("Back to Main menu")
-                        userOptions
-                    }
-                    else if(failedAttempts == 2){
-                        println("Too many failed attempts. Resturning to Main menu")
-                        failedAttempts = 0
-                        userOptions
-                    }
-                    else{
-                            println("Enter valid username")
-                            failedAttempts += 1
-                            updateUser
-                        }
-                    }
-        
-            case 2 => println("Enter your")
-         }
-        
+        }else{
+            println("Not valid username. Returning to Login menu.")
+            userSelection
+        }
+
+
     }
+
 }
 
 
 
 
-//while with condition =true is infinite loop
