@@ -5,10 +5,11 @@ import scala.io.Source
 object Login {
     var admin = "admin"
     var adminKey = "adminkey"
-    var user = "mira"
+    var user = "Mira"
     var userKey = "mirakey"
     var username = ""
     var x = 0
+    var failedAttempts = 0
     
 
     def userSelection{
@@ -79,50 +80,122 @@ object Login {
     
 
     def updateUser{
-        println("1.Enter Username")
-        var userInput = scala.io.StdIn.readLine
-
-        if(userInput == admin){
-            println("Hello Admin, please enter your password.")
-            var pswd = scala.io.StdIn.readLine
-                if(pswd == adminKey){
-                    println("Sorry Admin, you cannot change your username. Returning to Login menu.")
-                    userSelection
-                
-                }else{
-                    println("Incorrect password. Returning to Login menu.")
-                    userSelection
-                }
-
-        }else{
-            println("Not valid username. Returning to Login menu.")
-            userSelection
+        var updateUserSeq: Seq[String] = Seq("1. Update Username ", "2. Update Password")
+        println("Select an option")
+        
+        for(x <- updateUserSeq){
+            println(x)
         }
 
-        if(userInput == user){
-            println("Hello Mira, please enter your password.")
-            var pswd = scala.io.StdIn.readLine
-                if(pswd == userKey){
-                    println("Enter your new username")
-                    var pswd = scala.io.StdIn.readLine
-                    println("Your new username is: " + user)
-                    println("Directing you to Main Screen...")
-                    VGames.mainScreen
+        var selection = scala.io.StdIn.readInt
 
-                }else{
-                    println("Incorrect password. Returning to Login menu.")
-                    userSelection
-                }
+        selection match{
+            case 1 => println("Enter current Username")
+                    var username = scala.io.StdIn.readLine
+            
+                    if(username == admin){
+                        println("Hello Admin, please enter your password.")
+                        var pswd = scala.io.StdIn.readLine
+                            if(pswd == adminKey){
+                                println("Hello," + admin + "what would you like your new Username to be?")
+                                println("Enter new Username")
+                                admin = scala.io.StdIn.readLine
+                                println("Your new Admin username is:" + admin)
+                                println("Directing you to Main Screen...")
+                                VGames.mainScreen
+                            }else if(failedAttempts == 2){
+                                println("Too many failed attempts. Returning to Login menu")
+                                userSelection
+                            
+                            }else{
+                                println("Not valid username. Returning to Login menu.")
+                                failedAttempts += 2
+                                userSelection
+                            }
+                }else if(username == user){
+                        println("Hello Mira, please enter your password.")
+                        var pswd = scala.io.StdIn.readLine
+                            if(pswd == userKey){
+                                println("Hello, " + user + " what would you like your new Username to be?")
+                                println("Enter new Username")
+                                user = scala.io.StdIn.readLine
+                                println("Your new username is: " + user)
+                                println("Directing you to Main Screen...")
+                                VGames.mainScreen
+                            }else if(failedAttempts == 2){
+                                println("Too many failed attempts. Returning to Login menu")
+                                failedAttempts = 0
+                                userSelection
+                            }else{
+                                println("Not valid username. Returning to Login menu.")
+                                failedAttempts += 2
+                                userSelection
+                            }  
+                        }else if(failedAttempts == 2){
+                            println("Too many failed attempts. Returning to Login menu")
+                            failedAttempts = 0
+                            userSelection
+                        }else{
+                            println("Enter a valid option")
+                            failedAttempts +=2
+                            updateUser
+                        }      
 
-        }else{
-            println("Not valid username. Returning to Login menu.")
-            userSelection
+            case 2 => println("Enter current Username")
+                    var username = scala.io.StdIn.readLine
+
+                    if(username == admin){
+                        println("Enter your Password")
+                        var pswd = scala.io.StdIn.readLine
+                            if(pswd == adminKey){
+                                println("Hello," + admin + "what would you like your new Password to be?")
+                                println("Enter new Password")
+                                adminKey = scala.io.StdIn.readLine
+                                println("Your new Password is:" + adminKey)
+                                println("Directing you to Main Screen...")
+                                 VGames.mainScreen
+                            }else if(failedAttempts == 2){
+                                println("Too many failed attempts. Returning to Login menu.")
+                                userSelection
+
+                            }else{
+                                println("Not valid username. Returning to Login menu.")
+                                failedAttempts += 2
+                                userSelection
+                            }  
+                    }else if(username == user){
+                            println("Enter your password")
+                            var pswd = scala.io.StdIn.readLine
+                                if(pswd == userKey){
+                                    println("Hello," + user + "what would you like your new Password to be?")
+                                    println("Please enter a new Password")
+                                    userKey = scala.io.StdIn.readLine
+                                    println("Your password has been updated to: " + userKey)
+                                    println("Directing you to Main Screen...")
+                                    VGames.mainScreen
+                                }else if(failedAttempts == 2){
+                                    println("Too many failed attempts. Returning to Login menu")
+                                    userSelection
+
+                                }else{
+                                    println("Not valid username. Returning to Login menu.")
+                                    failedAttempts += 2
+                                    userSelection
+                                }
+                        }else if(failedAttempts == 2){
+                            println("Too many failed attempts. Returning to Login menu.")
+                            failedAttempts = 0
+                            userSelection
+                        }        
+            case _ => println("Enter valid selection.")
+                        userSelection                  
+            
         }
-
+        
     }
 
     def exit{
-        var selectionSeq: Seq[String] = Seq("1. Yes, Welcome me again. ", "2. No, take me back to Login menu.")
+        var selectionSeq: Seq[String] = Seq("1. Yes, get me out of here. ", "2. No, take me back to Login menu.")
         println("Are you sure you want to Exit to to Welcome Screen?")
         
         for(x <- selectionSeq){
@@ -132,7 +205,7 @@ object Login {
         var selection = scala.io.StdIn.readInt() 
 
         selection match{
-            case 1 => println("Okay, taking you back to Welcome Screen.")
+            case 1 => println("Okay, taking you back to Main Screen.")
                     VGames.mainScreen
             case 2 => println("Okay, taking you back to Login menu.")
                     userSelection

@@ -1,4 +1,4 @@
-[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Mira\Desktop\TrainingProgram\Project 1\p1vgames\src\main\scala\example\p1vgames.scala:17:16: imported `Login' is permanently hidden by definition of object Login in package example[0m
-[0m[[0m[33mwarn[0m] [0m[0mimport example.Login[0m
-[0m[[0m[33mwarn[0m] [0m[0m               ^[0m
-[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Mira\Desktop\TrainingProgram\Project 1\p1vgames\src\main\scala\example\Login.scala:115:26: not found: value updateUserInput[0m
+[0m[[0m[31merror[0m] [0m[0m                }else if(updateUserInput == user){[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
