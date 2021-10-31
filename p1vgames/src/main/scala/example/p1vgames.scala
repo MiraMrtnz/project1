@@ -1,22 +1,7 @@
 package example
 
-//Method imports
-
-import java.io.IOException
-import scala.util.Try
-import scala.io.StdIn.readLine // user input
-import java.io.PrintWriter
-
-//Hive imports from HiveCL notes
-import java.sql.SQLException;
-import java.sql.Connection;
-import java.sql.ResultSet;
-import java.sql.Statement;
-import java.sql.DriverManager;
-import java.io.File
-
-//Login import
 import example.Login
+import example.Queries
 
 object VGames {
     def main(args: Array[String]){

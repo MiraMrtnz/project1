@@ -59,3 +59,8 @@ compile
 run
 compile
 run
+compile
+clean
+package
+clean
+package

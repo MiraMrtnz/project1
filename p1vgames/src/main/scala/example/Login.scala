@@ -3,7 +3,7 @@ package example
 import scala.io.Source 
 
 object Login {
-    var admin = "admin"
+    var admin = "Admin"
     var adminKey = "adminkey"
     var user = "Mira"
     var userKey = "mirakey"
@@ -12,7 +12,7 @@ object Login {
     var failedAttempts = 0
     
 
-    def userSelection{
+    def userSelection: Unit ={
         var selectionSeq: Seq[String] = Seq("1. Admin log in","2. Already have an account? Log in.", "3. Update User", "4. Exit" )
         println("Select User")
 
@@ -100,7 +100,7 @@ object Login {
                                 println("Hello," + admin + "what would you like your new Username to be?")
                                 println("Enter new Username")
                                 admin = scala.io.StdIn.readLine
-                                println("Your new Admin username is:" + admin)
+                                println("Your new Admin username is: " + admin)
                                 println("Directing you to Main Screen...")
                                 VGames.mainScreen
                             }else if(failedAttempts == 2){
@@ -196,7 +196,7 @@ object Login {
 
     def exit{
         var selectionSeq: Seq[String] = Seq("1. Yes, get me out of here. ", "2. No, take me back to Login menu.")
-        println("Are you sure you want to Exit to to Welcome Screen?")
+        println("Are you sure you want to Exit to Welcome Screen?")
         
         for(x <- selectionSeq){
             println(x)
