@@ -1,7 +1,11 @@
 [0m[[0m[0minfo[0m] [0m[0mPackaging C:\Users\Mira\Desktop\TrainingProgram\Project 1\p1vgames\target\scala-2.11\p1vgames_2.11-0.1.0-SNAPSHOT.jar ...[0m
 [0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	example\Queries$$anonfun$queryResponses$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Mira\Desktop\TrainingProgram\Project 1\p1vgames\target\scala-2.11\classes\example\Queries$$anonfun$queryResponses$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	example\Login.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Mira\Desktop\TrainingProgram\Project 1\p1vgames\target\scala-2.11\classes\example\Login.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	example\Queries$$anonfun$getApiData$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Mira\Desktop\TrainingProgram\Project 1\p1vgames\target\scala-2.11\classes\example\Queries$$anonfun$getApiData$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	example\Queries.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Mira\Desktop\TrainingProgram\Project 1\p1vgames\target\scala-2.11\classes\example\Queries.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	example\Queries$.class[0m

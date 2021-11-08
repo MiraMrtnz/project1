@@ -1,6 +1,7 @@
 package example
 
 import scala.io.Source 
+import example.VGames
 
 object Login {
     var admin = "Admin"
@@ -11,23 +12,28 @@ object Login {
     var x = 0
     var failedAttempts = 0
     
+    var returnMainMenu = true
+
 
     def userSelection: Unit ={
-        var selectionSeq: Seq[String] = Seq("1. Admin log in","2. Already have an account? Log in.", "3. Update User", "4. Exit" )
-        println("Select User")
+        
+        while (returnMainMenu){
+            var selectionSeq: Seq[String] = Seq("1. Admin log in","2. Already have an account? Log in.", "3. Update User", "4. Exit" )
+            println("Select User")
 
-        for(x <- selectionSeq){
-            println(x)
-        }
+            for(x <- selectionSeq){
+                println(x)
+            }
 
-        var selection = scala.io.StdIn.readInt() //user
+            var selection = scala.io.StdIn.readLine() //user
 
-        selection match{
-            case 1 => adminUser
-            case 2 => existingUser
-            case 3 => updateUser
-            case 4 => exit
-            case _ => println("Enter valid option..")
+            selection match{
+                case "1" => adminUser
+                case "2" => existingUser
+                case "3" => updateUser
+                case "4" => exit 
+                case _ => println("Enter valid option..")
+            }
         }
     }
 
@@ -205,8 +211,8 @@ object Login {
         var selection = scala.io.StdIn.readInt() 
 
         selection match{
-            case 1 => println("Okay, taking you back to Main Screen.")
-                    VGames.mainScreen
+            case 1 => println("Okay, exiting the program.")
+                    returnMainMenu = false
             case 2 => println("Okay, taking you back to Login menu.")
                     userSelection
         }

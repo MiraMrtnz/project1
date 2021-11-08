@@ -1,13 +1,13 @@
-[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Mira\Desktop\TrainingProgram\Project 1\p1vgames\src\main\scala\example\Queries.scala:42:16: This catches all Throwables. If this is really intended, use `case ex : Throwable` to clear this warning.[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Mira\Desktop\TrainingProgram\Project 1\p1vgames\src\main\scala\example\Queries.scala:76:16: This catches all Throwables. If this is really intended, use `case ex : Throwable` to clear this warning.[0m
 [0m[[0m[33mwarn[0m] [0m[0m          case ex => {[0m
 [0m[[0m[33mwarn[0m] [0m[0m               ^[0m
-[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Mira\Desktop\TrainingProgram\Project 1\p1vgames\src\main\scala\example\Queries.scala:33:12: This catches all Throwables. If this is really intended, use `case ex : Throwable` to clear this warning.[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Mira\Desktop\TrainingProgram\Project 1\p1vgames\src\main\scala\example\Queries.scala:67:12: This catches all Throwables. If this is really intended, use `case ex : Throwable` to clear this warning.[0m
 [0m[[0m[33mwarn[0m] [0m[0m      case ex =>{[0m
 [0m[[0m[33mwarn[0m] [0m[0m           ^[0m
-[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Mira\Desktop\TrainingProgram\Project 1\p1vgames\src\main\scala\example\p1vgames.scala:3:16: imported `Login' is permanently hidden by definition of object Login in package example[0m
-[0m[[0m[33mwarn[0m] [0m[0mimport example.Login[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Mira\Desktop\TrainingProgram\Project 1\p1vgames\src\main\scala\example\Queries.scala:145:16: This catches all Throwables. If this is really intended, use `case ex : Throwable` to clear this warning.[0m
+[0m[[0m[33mwarn[0m] [0m[0m          case ex => {[0m
 [0m[[0m[33mwarn[0m] [0m[0m               ^[0m
-[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Mira\Desktop\TrainingProgram\Project 1\p1vgames\src\main\scala\example\p1vgames.scala:4:16: imported `Queries' is permanently hidden by definition of object Queries in package example[0m
-[0m[[0m[33mwarn[0m] [0m[0mimport example.Queries[0m
-[0m[[0m[33mwarn[0m] [0m[0m               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Mira\Desktop\TrainingProgram\Project 1\p1vgames\src\main\scala\example\Queries.scala:136:12: This catches all Throwables. If this is really intended, use `case ex : Throwable` to clear this warning.[0m
+[0m[[0m[33mwarn[0m] [0m[0m      case ex =>{[0m
+[0m[[0m[33mwarn[0m] [0m[0m           ^[0m
 [0m[[0m[33mwarn[0m] [0m[0mfour warnings found[0m
