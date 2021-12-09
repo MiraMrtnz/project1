@@ -1,6 +1,7 @@
 PROJECT ONE:
     
-    - A video game application that loads data from RAWG Video Game Data API and queries HiveQL queries on data
+    - A video game application that loads data from RAWG Video Game Data 
+    API and queries HiveQL queries on data
 
 Tech Stack: 
 
